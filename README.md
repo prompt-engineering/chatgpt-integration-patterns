@@ -28,7 +28,9 @@
 
 - 使用 prompt 生成器生成特定输入，提高 ChatGPT 回答准确度和全面性。例如，使用 prompt 生成器生成法律咨询问题，ChatGPT 回答法律问题；在问答领域中，使用预定义的问题模板作为输入，生成相应的回答，能够提高 ChatGPT 的回答准确度和全面性。
 
-生成器模式是我们最早设计的强化 Prompt 场景，它非常容易实现，只需要预设好一些模板，就能很好地工作。
+生成器模式是我们最早设计的强化 Prompt 场景，它非常容易实现，只需要预设好一些模板，就能很好地工作：
+
+示例：[https://www.clickprompt.org/zh-CN/chatgpt-generator-cot/](https://www.clickprompt.org/zh-CN/chatgpt-generator-cot/)
 
 ## 系统集成模式
 
@@ -36,17 +38,25 @@
 
 在 ClickPrompt 中，我们通过集成  HuggingFace 来实现，一个简单的场景，生成图形的功能。
 
+示例：
+
+在线示例：[https://www.clickprompt.org/zh-CN/stable-diffusion-generator/](https://www.clickprompt.org/zh-CN/stable-diffusion-generator/)
+
 ## **管道模式**:
 
 - 在 ChatGPT 中定义处理流程，对每个输入进行处理并生成输出。例如，将 ChatGPT 用于自动化客服，对用户的问题进行分类和回复；在客服领域中，ChatGPT 可以通过管道模式实现意图识别、实体识别、回答生成等一系列流程。
 
-在 ClickPrompt 中，我们预期通过 ChatGPT 来与人类交互，对每一步的输入和输出校正，进而完善系统的架构设计。
+在 ClickPrompt 中，我们预期通过 ChatGPT 来与人类交互，对每一步的输入和输出校正，进而完善系统的架构设计：
+
+在线示例：[https://www.clickprompt.org/zh-CN/chatgpt-samples/ddd-sample/](https://www.clickprompt.org/zh-CN/chatgpt-samples/ddd-sample/)
 
 ## **目标引导模式**
 
  将对话分成场景，并为每个场景设定目标，引导 ChatGPT 生成相关回答。例如，将 ChatGPT 用于旅游规划，引导用户选择目的地并提供相关信息；在旅游领域中，ChatGPT 可以根据场景（如酒店预订、景点推荐）来生成相应的回答。
 
 在 ClickPrompt 中，我们通过 ChatGPT 来生成 Stable Diffusion 的 tag，进而完善文本到图形的转换。
+
+在线示例：[https://www.clickprompt.org/zh-CN/stable-diffusion-generator/](https://www.clickprompt.org/zh-CN/stable-diffusion-generator/)
 
 ## **协同模式**
 
