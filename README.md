@@ -58,7 +58,7 @@
 
 在 ClickPrompt 中，我们通过 ChatGPT 来生成 Stable Diffusion 的 tag，进而完善文本到图形的转换。
 
-示例：![目标引导模式](images/guide.png)
+示例：![目标引导模式](images/target-guide.png)
 
 在线示例：[https://www.clickprompt.org/zh-CN/stable-diffusion-generator/](https://www.clickprompt.org/zh-CN/stable-diffusion-generator/)
 
