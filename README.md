@@ -52,6 +52,12 @@
 
 在线示例：[https://www.clickprompt.org/zh-CN/chatgpt-samples/ddd-sample/](https://www.clickprompt.org/zh-CN/chatgpt-samples/ddd-sample/)
 
+又或者：
+
+![](images/pipeline-user-story.png)
+
+在线示例：[https://dev.clickprompt.org/zh-CN/chatgpt-startling-by-each-step/user-story/](https://dev.clickprompt.org/zh-CN/chatgpt-startling-by-each-step/user-story/)
+
 ## **目标引导模式**
 
  将对话分成场景，并为每个场景设定目标，引导 ChatGPT 生成相关回答。例如，将 ChatGPT 用于旅游规划，引导用户选择目的地并提供相关信息；在旅游领域中，ChatGPT 可以根据场景（如酒店预订、景点推荐）来生成相应的回答。
