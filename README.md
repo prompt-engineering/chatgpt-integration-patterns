@@ -30,7 +30,9 @@
 
 生成器模式是我们最早设计的强化 Prompt 场景，它非常容易实现，只需要预设好一些模板，就能很好地工作：
 
-示例：[https://www.clickprompt.org/zh-CN/chatgpt-generator-cot/](https://www.clickprompt.org/zh-CN/chatgpt-generator-cot/)
+![生成器模式](images/generator.jpeg)
+
+在线示例：[https://www.clickprompt.org/zh-CN/chatgpt-generator-cot/](https://www.clickprompt.org/zh-CN/chatgpt-generator-cot/)
 
 ## 系统集成模式
 
@@ -38,7 +40,7 @@
 
 在 ClickPrompt 中，我们通过集成  HuggingFace 来实现，一个简单的场景，生成图形的功能。
 
-示例：
+示例：![生成器模式](images/integration.jpeg)
 
 在线示例：[https://www.clickprompt.org/zh-CN/stable-diffusion-generator/](https://www.clickprompt.org/zh-CN/stable-diffusion-generator/)
 
@@ -55,6 +57,8 @@
  将对话分成场景，并为每个场景设定目标，引导 ChatGPT 生成相关回答。例如，将 ChatGPT 用于旅游规划，引导用户选择目的地并提供相关信息；在旅游领域中，ChatGPT 可以根据场景（如酒店预订、景点推荐）来生成相应的回答。
 
 在 ClickPrompt 中，我们通过 ChatGPT 来生成 Stable Diffusion 的 tag，进而完善文本到图形的转换。
+
+示例：![目标引导模式](images/guide.png)
 
 在线示例：[https://www.clickprompt.org/zh-CN/stable-diffusion-generator/](https://www.clickprompt.org/zh-CN/stable-diffusion-generator/)
 
